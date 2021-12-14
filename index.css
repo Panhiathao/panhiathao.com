@@ -28,7 +28,7 @@ header section {
     width: 50vw;
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
 }
 
@@ -36,7 +36,7 @@ main {
     height: auto;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
 }
 
@@ -58,7 +58,12 @@ footer {
 }
 
 h1 {
+    padding-left: 10vh;
     font-size: 4rem;
+}
+
+nav {
+    padding-left: 10vh;
 }
 
 img {
