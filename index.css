@@ -5,8 +5,6 @@ html {
 
 body {
     margin: 0;
-    width: 100vw;
-    height: 100vh;
 
     background: linear-gradient(lightsteelblue, lightgreen);
     display: flex;
@@ -71,6 +69,10 @@ p {
     font-size: 2rem;
     text-align: center;
     padding: 10px;
+}
+
+ul {
+    font-size: 1.8rem;
 }
 
 a:not(p > a), select, small {
