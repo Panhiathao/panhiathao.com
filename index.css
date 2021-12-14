@@ -5,6 +5,9 @@ html {
 
 body {
     margin: 0;
+    width: 100vw;
+    height: 100vh;
+
     background: linear-gradient(lightsteelblue, lightgreen);
     display: flex;
     flex-direction: column;
@@ -13,6 +16,7 @@ body {
 }
 
 header {
+    width: 100vw;
     height: 20vh;
     display: flex;
     flex-direction: row;
